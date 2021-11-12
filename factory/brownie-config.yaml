@@ -1,0 +1,14 @@
+compiler:
+  evm_version: null
+  solc:
+    version: 0.5.16
+    optimizer:
+      enabled: false
+      runs: 200
+  vyper:
+    version: null
+dotenv: .env
+wallets:
+  bsc-test:
+    account: ${ACCOUNT_KEY}
+    verify: true
